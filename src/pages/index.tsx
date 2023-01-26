@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <>
       <Seo title="Home" />
-      <h1>게임을 선택하세요</h1>
-      <p>사이트 설명....</p>
-      <article className={styles.container}>
+      <article className={styles.article}>
         <Link href="/idioms">사자성어</Link>
         <Link href="/words">영단어</Link>
       </article>
