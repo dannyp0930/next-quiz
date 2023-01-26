@@ -1,3 +1,9 @@
 .footer {
-  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  background-color: #030302;
+  color: #e6e6e6;
+  font-weight: 600;
 }

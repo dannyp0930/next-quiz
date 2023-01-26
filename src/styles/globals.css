@@ -5,9 +5,7 @@ body {
 }
 
 body {
-  max-width: 520px;
-  width: 100%;
-  margin: 0 auto;
+  background-color: #C3BFBD;
 }
 
 a {
