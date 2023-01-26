@@ -1,3 +1,7 @@
+.header {
+  height: 2rem;
+}
+
 .nav {
   display: flex;
   column-gap: 1rem;

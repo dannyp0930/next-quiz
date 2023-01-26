@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "@/styles/NavBar.module.css";
+import styles from "@/styles/Header.module.css";
 
 export default function Header() {
   const { route } = useRouter();
   return (
-    <header>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/">Home</Link>
         {route !== "/" && (
