@@ -5,7 +5,9 @@ interface SeoProps {
 }
 
 export default function Seo({ title }: SeoProps) {
-  return <Head>
-    <title>{title} | Next Quiz</title>
-  </Head>
+  return (
+    <Head>
+      <title>{title} | Next Quiz</title>
+    </Head>
+  );
 }
